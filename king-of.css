@@ -1,0 +1,606 @@
+*{
+padding: 0;
+margin: 0;
+font-family: sans-serif;
+}
+body{
+    background-image: linear-gradient(to right, #74ebd5 0%, #9face6 100%);
+}
+.header{
+position: relative;
+min-height: 80vh;
+width: 100%;
+background-image:url(./img/owl22.jpg);
+background-position: center;
+background-size: cover;
+}
+nav{
+display: flex;
+padding: 2% 6%;
+justify-content: space-between;
+align-items: center;
+}
+nav img{
+width:130px;
+margin-left: 10px;
+}
+
+.navbar-links ul li{
+list-style: none;
+display: inline-block;
+padding: 8px 7px;
+position: relative;
+}
+
+.navbar-links ul li a{
+color: #fff;
+text-decoration: none;
+font-size: 15px;
+position: relative;
+bottom: 10px;
+font-family: 'Poppins', sans-serif;
+}
+
+.navbar-links ul li a:hover{
+border-bottom:  3px solid blue;
+transition: 0.4s;
+}
+
+.home{
+border: 8px solid cadetblue;
+background-color: cadetblue;
+}
+
+.text-box{
+text-align: left;
+position: relative;
+top: 150px;
+}
+.text-box h1{
+color: rgb(37, 207, 173);
+margin-left: 35px;
+font-size: 30px;
+font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ; 
+    
+}
+.text-box p{
+    color:white;
+    margin: 5px 0px 40px 35px;
+    font-size: 15px;
+    margin-top: 25px
+
+}
+
+.btn-king{
+display: inline-block;
+text-decoration: none;
+border: 1px solid #fff;
+padding: 12px 34px;
+font-size: 10px;
+background-color: cadetblue;
+color: #fff;
+margin-left: 35px;
+
+}
+.btn-king:hover{
+background-color: blue;
+transition: 0.5s;
+}
+@media(max-width: 850px){
+    .text-box h1{
+    font-size: 25px;
+    text-align: center;
+    margin-top: 115px;
+    }
+    .header{
+    background-image:url(./img/owl22.jpg);
+    background-position: center;
+    width: 100%;      
+    }
+
+    .text-box p{
+    width: 300px;
+    text-align: center;
+    margin-left: 100px;
+    font-size: 13px;
+    color: #fff;
+    }
+    .btn-king{
+        
+    margin-left: 170px;
+    margin-bottom: 0px;
+    font-size: 9px;
+    }
+    nav img{
+    margin-bottom: 10px;
+    width: 70px;
+    height: 30px;
+    }
+
+    .navbar-links ul li a{
+    margin-top: 0px;
+        
+    font-size: 10px;
+    }
+}
+/************************ SERVICE *****************************************/
+.services{
+    display: flex;
+    margin-top: 80px;
+    margin-left: 50px;
+    margin-right: 80px;
+    width: 1200px;
+    margin-left:auto ;
+}
+.parent-cards img {
+    border: 20px solid lightblue;
+}
+.our-service{
+    width: 400px;
+    height: 250px;
+}
+.our-service h1{
+    margin-bottom: 10px;
+    border-bottom: 2px solid gold;
+}
+.parent-divs{
+    display: flex;
+    flex-wrap: wrap;
+    width: 1200px;
+    margin-left:80px;
+    justify-content: space-between;
+    margin-top: 50px;
+    
+}
+.parent-divs h1{
+    margin-bottom: 20px;
+    
+}
+.hour-24s h1{
+    border-bottom: 3px dotted rgba(0, 0, 255, 0.477);
+    width: 300px;
+}
+.midcal-con h1{
+    border-bottom: 3px dotted rgba(0, 0, 255, 0.477);
+    width: 300px;
+}
+.emer-ser h1{
+    border-bottom: 3px dotted rgba(0, 0, 255, 0.477);
+    width: 300px;
+}
+.per-health h1{
+    border-bottom: 3px dotted rgba(0, 0, 255, 0.477);
+    width: 300px;
+}
+
+.parent-divs div p{
+width: 300px;
+margin: 10px;
+margin-left: 0px;
+border: 2px solid cadetblue;
+border-radius: 10px;
+}
+.parent-divs div{
+width: 50%;
+margin-bottom:50px ;
+}
+
+@media only screen and (max-width:850px) 
+{ .services{
+    display: contents;
+
+}
+.our-service{
+    text-align: center;
+    height: 50px;
+
+}
+.our-service h1{
+    font-size: 20px;
+    width: 200px;
+    margin-left: 125px;
+}
+.hour-24s h1{
+    width: 150px;
+    font-size: 20px ;
+    margin-left: 65px;
+}
+.midcal-con h1{
+    font-size: 20px ;
+    margin-left: 65px;
+    width: 172px;
+}
+.emer-ser h1{
+    font-size: 20px ;
+    margin-left: 65px;
+    width: 170px;
+}
+.per-health h1{
+    font-size: 20px ;
+    margin-left: 65px;
+    width: 190px;
+}
+
+.our-service p{
+width: 400px;
+margin-left: 30px;
+}
+.services div {
+    /* width: 500px; */
+    padding: 10%;
+    margin: -20px;
+    display: block;
+}
+
+
+.parent-divs div {
+    padding: 70px;
+    margin-left: 20px;
+}
+}
+
+
+/* midlap */
+.parent-ultimate{
+    display: flex;
+    margin-left: 250px ;
+    margin-right: 250px ;
+    margin-top: 100px;
+    justify-content: space-around;
+}
+
+.sq1 h1{
+    margin-bottom: 20px;
+    border-bottom: 2px solid gold;
+}
+
+@media only screen and (max-width:850px){
+
+    .parent-ultimate{
+        display: contents;
+        text-align: center;
+    }
+
+    .sq1 h1{
+        margin-bottom: 10px;
+        margin-left: 170px;
+        font-size: 20px;
+        width: 200px;
+    }
+    .sq1 p{
+        margin-left: 60px ; 
+    }
+    .sq2 h2{
+    font-size: 20px;
+    margin-bottom: 10px;
+    margin-left: 70px;
+    width: 400px;
+    }
+    .sq2 p{
+        margin-left: 60px;
+    }
+}
+
+
+/* our-skills */
+.parent-cards{
+    display: flex;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 200px;
+    justify-content: space-evenly;
+    font-family: 'Times New Roman';
+}
+.cards{
+    margin-left: 160px;
+    margin-bottom: 20px;
+    border-bottom:2px solid gold ;
+    width: 270px;
+}
+
+.card1{
+    border: 1px solid silver;
+}
+
+.card1 h3{
+    margin-top: 10px;
+    margin-left: 5px;
+}
+.card1 p{
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+}
+.card-img1{
+    width: 260px;
+    height: 260px;
+}
+
+@media only screen and (max-width:850px){
+    .parent-cards{
+        display:contents;
+    }
+    .card1 h3{
+        font-size: 20px;
+        text-align: center;
+        margin-bottom: 20PX;
+    }
+    .cards{
+        text-align: center;
+        margin-left: 100px;
+        margin-top: 40px;
+        
+    }
+    .card1 img{
+        width: 92%;
+    }
+    
+}
+
+/* comments */
+.comments{
+    height: 40vh;
+    background-color:skyblue;
+}
+.comments h2{
+margin-left: 300px;
+padding: 40px;
+width: 600px;
+
+}
+.parent-of-comments{
+    display: flex;
+    justify-content: center;
+}
+
+.comment-boxs{
+
+margin-left:150px;
+}
+.comment-boxs h5{
+    background-color: #fff;
+    min-height: 50px;
+    min-width: 220px;
+    border: 2px solid blue;
+    border-radius: 10px;
+}
+
+.img-box1{
+  min-width:50px;
+    height: 50px;
+    margin-top: 15px;
+    margin-left: 0px;
+    border: 2px solid blue;
+    border-radius: 25px;
+
+} 
+
+@media only screen and (max-width:850px){
+    .comments{
+        display: inline-block;
+        width:483px;
+        height: 70vh;
+        
+    }
+    .comments h2{
+        font-size: 20px;
+        margin-left: -90px;
+        text-align: center;
+    
+    }
+
+    .parent-of-comments{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100px;
+    }
+    .img-box1{
+        margin-bottom:10px;
+        margin-left: 20px;
+    }
+    .comment-boxs{
+        display: flex;
+    }
+    .comment-boxs h5{
+    margin-left: -50px;
+    margin-top: 20px;
+    }
+    .comment-boxs span{
+        margin-left: 10px;
+        margin-top: 20px;
+    }
+}
+
+
+
+/* ABOUT US */
+.about-us{
+    height: 25vh;
+    background-color: rgba(0, 0, 0, 0.817);
+    color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.about-us div{
+    /* margin-left: 320px; */
+    padding: 25px;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.about-us div p{
+    margin-top:20px;
+
+}
+
+@media only screen and (max-width:850px) {
+    .about-us div h2{
+        font-size: 20px;
+    }
+    .about-us div p{
+        margin-left: 20px;
+        margin-top: 0px;
+        font-size: 15px;
+    }
+}
+
+/* contatc-us */
+.parent-contacts{
+    display: flex;
+    min-width: 500px ;
+
+}
+.contact-info{
+margin-left: 160px;
+margin-bottom: 20px;
+}
+.contact-info h2{
+
+border-bottom: 2px solid gold ;
+width: 150px;
+padding-top: 25px;
+}
+
+.contact-info h3{
+padding-top: 40px;
+}
+
+.contact-info h4{
+    
+    padding-top: 40px;
+    border-bottom: 2px solid rgba(255, 166, 0, 0.662);
+    width: 60px;
+}
+.contact-info p{
+
+    color: rgba(0, 0, 0, 0.737) ;
+}
+
+.your-information{
+    display: flex;
+    flex-direction:column ;
+    margin-left: 90px;
+    min-height: 100px; ;
+    padding-top: 60px;
+}
+.your-information h2{
+    border-bottom: 2px solid gold;
+    width: 460px;
+}
+.inputs{
+    margin-top: 20px;
+    width: 340px;
+    height: 40px;
+}
+.btn{
+    color: #fff;
+    background-color: cadetblue;
+    border: 1px solid black;
+    border-radius: 3px;
+    width: 100px;
+}
+
+.btn:hover{
+    background-color: blue;
+    transition: 0.5s;
+}
+@media only screen and (max-width:850px){
+    .parent-contacts{
+        display:flex;
+        flex-direction: column;
+    
+    }
+    .contact-info{
+        width: 500px;
+    
+    }
+    .contact-info h2{
+    font-size: 20px;
+    }
+    .contact-info h2{
+    font-size: 20px;
+    width: 120px;
+    margin-right: 20px;
+    }
+    .your-information h2{
+    font-size: 20px;
+    width: 380px;
+    }
+    .your-information input{
+        width: 250px;
+        height: 30px;
+        margin-left: 60px;
+        margin-bottom: 20px;
+        
+    }
+}
+
+
+/* footer */
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 24vh;
+    background-color: rgb(11, 73, 143);
+
+}
+
+.about-footer{
+    margin-left: 150px;
+    margin-top: 20px;
+}
+.about-footer h3{
+    color: #fff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 20px;
+    border-bottom: 2px solid rgb(0, 221, 255);
+    width: 140px;
+}
+.about-footer p{
+    color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 20px;
+}
+
+.fast-links{
+    display: flex;
+    flex-direction: column;
+    margin-right: 500px;
+    margin-top: 50px;
+}
+.fast-links h4{
+    color: #fff;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 10px;
+    border-bottom: 2px solid rgb(0, 221, 255);
+
+}
+.fast-links a{
+    color: #fff;
+    text-decoration: none;
+    margin-top: 4px;
+}
+.fast-links a:hover{
+    border-bottom: 2px solid blue;
+    transition: 0.2s;
+}
+
+@media only screen and (max-width:850px) {
+    .footer{
+        display: flex;
+        justify-content: space-between;
+    }
+    .about-footer{
+        margin-left: 90px;
+    }
+    .about-footer p{
+    margin-top: 5px;
+    font-size: 10px;
+    }
+    .fast-links{
+        margin-left: 90px;
+    }
+}
